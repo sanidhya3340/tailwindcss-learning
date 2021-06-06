@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="h-screen flex flex-col justify-center itmes-center">
+        <div class="flex flex-col justify-center items-center border-4 rounded-lg">
+            <div class="flex flex-col justify-center items-center p-4">
+                <label type="text" class="text-center font-bold">Full Name</label>
+                <input type="text" placeholder="Enter Your Full Name" class="border-2 border-indigo-200 rounded-lg p-1 mt-4 placeholder-indigo-200" w-5/>
+                <button class="bg-blue-700 text-blue-200 w-20 p-2 rounded-lg mt-4 center">Save</button>
+            </div>
+        </div>
+    </body>
+</html>
