@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-600 flex justify-center items-center h-screenn">
+            <div class="w-2/3 flex flex-col bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="bg-gray-200 px-4 py-2 text-gray-600">
+                    <div class="text-bold">
+                        The title of the card is here.
+                    </div>
+                </div>
+                <div class="flex justify-center border-b border-gray-200  items-center justify-between px-4 py-2">
+                    <div class="flex justify-center items-center uppercase bg-orange-500 px-2 py-1 rounded-full text-xs font-bold text-gray-200">
+                        under review
+                    </div>
+                    <div class="text-xs">
+                        May 14, 1998
+                    </div>
+                </div>
+                <div class="mx-4 my-2 bg-gray-200 rounded-lg px-3 py-2">
+                    <div class="text-sm">
+                        Here is a short comment about this employee.
+                    </div>
+                </div>
+                <div class="bg-gray-200 px-4 py-2">
+                    <div class="text-gray-600 font-bold">
+                        Employee
+                    </div>
+                    <div class="flex items-center">
+                        <div class="bg-blue-600 px-2 py-2 rounded-full">
+                            VG
+                        </div>
+                        <div class="px-3">
+                            <p class="font-bold">Victor Gonzalez</p>
+                            <p class="text-sm">Instructor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
